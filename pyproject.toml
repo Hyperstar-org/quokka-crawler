@@ -1,0 +1,23 @@
+[project]
+name = "tiktok-actor"
+version = "0.1.0"
+description = "An Apify actor to run TikTok Crawler"
+authors = [
+    {name = "sang721"}
+]
+license = {text = "no"}
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+dependencies = [
+    "apify (<3.0)",
+    "beautifulsoup4 (>=4.13.4,<5.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "types-beautifulsoup4 (>=4.12.0.20250516,<5.0.0.0)",
+    "python-decouple (>=3.8,<4.0)",
+    "lxml (>=5.4.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
